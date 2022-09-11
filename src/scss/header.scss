@@ -1,0 +1,170 @@
+.header {
+  position: relative;
+//   min-height: 750px;
+  background-image: url('../../src/images/banner.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  &-list {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 66px;
+    padding: 0;
+    align-items: center;
+
+    &-item {
+      list-style: none;
+      line-height: 0;
+      margin-left: 24px;
+
+      a {
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 11px;
+        text-transform: uppercase;
+        color: #CACACA;
+        text-decoration: none;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+.logo {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  &-image {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../src/images/logo.svg');
+    background-position: center;
+    background-size: cover;
+  }
+
+  &-name {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 16px;
+  }
+}
+
+.search-form {
+  height: 25px;
+
+  input {
+    height: 25px;
+    background-color: #3C3B3D;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3px;
+    text-transform: uppercase;
+    color: #757575;
+    padding: 0;
+    padding-left: 10px;
+    line-height: 0;
+  }
+}
+
+.page-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+  padding-bottom: 200px;
+
+  &-title {
+    // text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+  }
+
+  &-subtitle {
+    // text-align: center;
+    margin: 0;
+    color: #FFFFFF;
+  }
+
+  &-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+}
+
+.form-start {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 570px;
+
+  &-item {
+    input {
+      box-sizing: border-box;
+      padding: 0;
+      height: 46px;
+      width: 266px;
+      border: 2px solid #cacaca;
+      background: none;
+      outline: none;
+      border-radius: 3px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      padding-left: 20px;
+      color: #FFFFFF;
+      text-transform: capitalize;
+    }
+  }
+
+  &-buttom {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background: #34C176;
+    border: none;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3px;
+    padding: 20px;
+
+
+    color: #FFFFFF;
+  }
+}
+
+
+// Поля формы
+
+// Внутренний отступ слева: 20 пикселей
+// Внешний нижний отступ: 1.5rem
+
+// Для кнопки добавьте атрибут type со значением submit
+// Кнопка
+// Вертикальные отступы: по 20 пикселей
+// Горизонтальные отступы: по 30 пикселей
+// Закругление: 5 пикселей
